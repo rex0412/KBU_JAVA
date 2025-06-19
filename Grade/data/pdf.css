@@ -1,0 +1,38 @@
+body {
+    font-family: 'SwaggerFont', sans-serif;
+    margin: 30px;
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.avg-label {
+    color: #0066cc;
+    text-align: right;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th {
+    background: #0066cc;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+}
+td {
+    padding: 7px;
+    text-align: center;
+    border: 1px solid #bbb;
+}
+.bold {
+    font-weight: bold;
+}
+.rank-cell {
+    color: #0066cc;
+    font-weight: bold;
+    background: #fff9c4;
+}

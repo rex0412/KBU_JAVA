@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="pdf.css"/>
+</head>
+<body>
+<h1>${TITLE}</h1>
+<div class="avg-label">반 평균 : ${CLASS_AVG}</div>
+<table>
+  <tr>
+    <th>학번</th>
+    <th class="bold">이름</th>
+    <th class="bold">성별</th>
+    <th>국어</th>
+    <th>영어</th>
+    <th>수학</th>
+    <th>선택</th>
+    <th>총점</th>
+    <th>평균</th>
+    <th class="rank-cell">반 석차</th>
+    <th class="rank-cell">학년석차</th>
+  </tr>
+  ${TABLE_ROWS}
+</table>
+</body>
+</html>
